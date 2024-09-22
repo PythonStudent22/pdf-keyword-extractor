@@ -34,18 +34,20 @@ def extract_pages_with_keywords(pdf_path, keywords, output_pdf_path):
         else:
             print("No pages with the specified keywords were found.")
 
-# Example input path, change this to the path of your PDF file
-pdf_path = '/path/to/your/input.pdf'
+# Add this block at the end of your script
+if __name__ == '__main__':
+    # Example input path, change this to the path of your PDF file
+    pdf_path = '/path/to/your/input.pdf'
 
-# Example keywords, change this to the keywords you want to search for
-keywords = [
-    'example_keyword_1',
-    'example_keyword_2',
-    'example_keyword_3',
-    'example_keyword_4'
-]
+    # Example keywords, change this to the keywords you want to search for
+    keywords = [
+        'example_keyword_1',
+        'example_keyword_2',
+        'example_keyword_3',
+        'example_keyword_4'
+    ]
 
-#Example output path, change this to the path where you want to save the extracted pages
-output_pdf_path = '/path/to/your/output.pdf'
+    # Example output path, change this to the path where you want to save the extracted pages
+    output_pdf_path = '/path/to/your/output.pdf'
 
-extract_pages_with_keywords(pdf_path, keywords, output_pdf_path)
+    extract_pages_with_keywords(pdf_path, keywords, output_pdf_path)
