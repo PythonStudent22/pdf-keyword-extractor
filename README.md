@@ -15,7 +15,7 @@ A Python script that uses PyPDF2 to extract and save PDF pages containing specif
 
 ## **Installation**
 
-1. **Clone the repository**
+1. **Clone the Repository**
 
    ```bash
    git clone https://github.com/PythonStudent22/pdf-keyword-extractor.git
