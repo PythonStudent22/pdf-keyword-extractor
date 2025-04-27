@@ -1,6 +1,6 @@
 # PDF Keyword Extractor
 
-A Python script that uses PyPDF2 to extract and save PDF pages containing specified keywords. It scans each page for the presence of any keyword and outputs a new PDF with the matching pages. Easily customizable with different keywords and file paths.
+A Python script using PyPDF2 to scan large PDF files (thousands of pages), extracting pages containing specified keywords (supports selecting hundreds of keywords simultaneously) and saving them into a new PDF. Fully customizable.
 
 ## **Features**
 
